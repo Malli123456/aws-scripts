@@ -1,0 +1,24 @@
+ 1  exit
+    2  ls -la
+    3  cat .bashrc
+    4  alias
+    5  l
+    6  exit
+    7  yum install httpd -y
+    8  sudo su -
+    9  sudo yum install perl-Switch perl-DateTime perl-Sys-Syslog perl-LWP-Protocol-https perl-Digest-SHA --enablerepo="rhui-REGION-rhel-server-optional" -y
+   10  sudo yum install zip unzip
+   11  curl https://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-1.2.2.zip -O
+   12  ls -ltr
+   13  unzip CloudWatchMonitoringScripts-1.2.2.zip
+   14  cd aws-scripts-mon
+   15  ls -ltr
+   16  cp awscreds.template awscreds.conf
+   17  ls -ltr
+   18  vi awscreds.
+   19  vi awscreds.conf
+   20  ./mon-put-instance-data.pl --mem-util --verify --verbose
+   21  ./mon-put-instance-data.pl --mem-used-incl-cache-buff --mem-util --mem-used --mem-avail
+   22  crontab -e
+   23  ./mon-get-instance-stats.pl --recent-hours=1
+   24  history >>/tmp/memory-cloudwatch
