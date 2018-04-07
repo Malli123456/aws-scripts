@@ -74,3 +74,4 @@
    73  top
    74  ls -ltr
    75  history >commands
+ls
