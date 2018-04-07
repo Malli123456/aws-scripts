@@ -1,4 +1,6 @@
- 1  exit
+ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/mon-scripts.html  
+ 
+ exit
     2  ls -la
     3  cat .bashrc
     4  alias
