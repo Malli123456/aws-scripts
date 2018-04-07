@@ -1,0 +1,76 @@
+    1  yum install httpd -y
+    2  systemctl start httpd
+    3  ps -ef | grep httpd
+    4  curl localhost
+    5  cat /var/www/html/index.html
+    6  cd /var/www/html
+    7  ls
+    8  echo "this is my second webserver">index.html
+    9  curl llocalhost
+   10  curl localhost
+   11  systemctl start httpd
+   12  curl localhost
+   13  dd if=/dev/zero of=/dev/null &
+   14  top
+   15  dd if=/dev/zero of=/dev/null &
+   16  top
+   17  fulload() { dd if=/dev/zero of=/dev/null | dd if=/dev/zero of=/dev/null | dd if=/dev/zero of=/dev/null | dd if=/dev/zero of=/dev/null & }; fulload; read; killall dd
+   18  fulload() { dd if=/dev/zero of=/dev/null | dd if=/dev/zero of=/dev/null | dd if=/dev/zero of=/dev/null | dd if=/dev/zero of=/dev/null & }; fulload; read; 
+   19  top
+   20  killall dd
+   21  yum install killalla
+   22  yum install killall
+   23  ls 0ltr
+   24  pwd
+   25  yum install git -y
+   26  mkdir gitlabs
+   27  cd gitlabs/
+   28  ls s-ltr
+   29  git init
+   30  ls -ltra
+   31  rm -rf *
+   32  git init aws-scripts
+   33  ls -ltr
+   34  ls -ltr aws-scripts/
+   35  ls -ltar aws-scripts/
+   36  cd .git/
+   37  cd ..
+   38  ls -ltr
+   39  cd aws-scripts/
+   40  ls -ltr
+   41  vi userdata.sh
+   42  git status
+   43  git add .
+   44  git status
+   45  git commit -m "test
+""
+   46  git commit -m "test"
+   47  git status
+   48  git remote add origin https://github.com/sireeshaavula/aws-scripts.git
+   49  git push -u origin master
+   50  ssh-keygen 
+   51  cd
+   52  ls -ltr
+   53  cd .ssh/
+   54  ls -lt
+   55  rcat id_rsa.pub 
+   56  cat id_rsa.pub 
+   57  ssh -T git@github.com
+   58  cd ..
+   59  ls -ltr
+   60  cd gitlabs/
+   61  ls -ltr
+   62  cd aws-scripts/
+   63  ls -ltr
+   64  history
+   65  top
+   66  killall dd
+   67  yum install killall 
+   68  yum install kill*
+   69  kill -9 1087 1091 1096 1099 1100 1101
+   70  top
+   71  kil -9 1094 1095 1098 1093
+   72  kill -9 1094 1095 1098 1093
+   73  top
+   74  ls -ltr
+   75  history >commands
